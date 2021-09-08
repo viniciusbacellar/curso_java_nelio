@@ -1,0 +1,11 @@
+import entities.Account;
+
+public class ExemploHeranca {
+
+	public static void main(String[] args) {
+		
+		Account acc = new Account(1001, "Alex", 0.0);
+
+	}
+
+}

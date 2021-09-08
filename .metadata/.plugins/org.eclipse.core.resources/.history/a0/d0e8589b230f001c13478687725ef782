@@ -1,0 +1,17 @@
+package entities;
+
+public class CircleAbs extends Shape {
+
+	
+	private Double radius;
+	
+	public CircleAbs() {
+		super();
+	}
+	
+	@Override
+	public double area() {
+		return 0;
+	}
+
+}

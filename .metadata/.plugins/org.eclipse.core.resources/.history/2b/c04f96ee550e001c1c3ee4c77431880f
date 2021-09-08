@@ -1,0 +1,14 @@
+package entitesExercicios;
+
+import java.util.Date;
+
+public class UsedProduct extends ProductPoli{
+
+	private Date manufactureDate;
+	
+	public UsedProduct() {
+		super();
+	}
+	
+	
+}

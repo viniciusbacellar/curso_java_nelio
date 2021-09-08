@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\Users\Vinic\Desktop\java-nelio\.metadata\.plugins\org.eclipse.jdt.core
+356374187.index
+3079489510.index

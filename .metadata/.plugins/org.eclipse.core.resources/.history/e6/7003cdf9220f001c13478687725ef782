@@ -1,0 +1,11 @@
+package entities;
+
+public class RectangleAbs extends Shape {
+
+	@Override
+	public double area() {
+		
+		return 0;
+	}
+
+}

@@ -1,0 +1,18 @@
+package entities;
+
+public class RectangleAbs extends Shape {
+
+	
+	private Double width;
+	private Double height;
+	
+	public RectangleAbs() {
+		super();
+	}
+	
+	@Override
+	public double area() {
+		return 0;
+	}
+
+}

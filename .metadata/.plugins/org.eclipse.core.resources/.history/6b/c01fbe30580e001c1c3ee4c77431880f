@@ -1,0 +1,36 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
+import java.util.Scanner;
+
+import entitesExercicios.ProductPoli;
+
+public class ExercicioPolimorfismo {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		List<ProductPoli> list = new ArrayList<>();
+		
+		System.out.print("Enter the number of products: ");
+		int n = sc.nextInt();
+		
+		for (int i=1; i<=n; i++) {
+			System.out.println("Product #" + i + " data:");
+			System.out.print("Commom, used or imported (c/u/i)? ");
+			char ch = sc.next().charAt(0);
+			System.out.println("Name:");
+			sc.nextLine();
+			String name = sc.nextLine();
+			System.out.print("Price: ");
+			if(ch == 'i') {
+				
+			}
+			
+		}
+		
+		
+		sc.close();
+	}
+
+}
